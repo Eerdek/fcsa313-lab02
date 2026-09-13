@@ -1,0 +1,11 @@
+# Багшийн зааврын эх файлыг public репод дахин тараахгүй
+*.docx
+~$*
+
+# Node
+node_modules/
+package-lock.json
+
+# Түр зуурын файлууд
+*.tmp
+*.log
