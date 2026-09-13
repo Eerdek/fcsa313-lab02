@@ -44,7 +44,7 @@ default   [  30% ] 5 VUs  09.0s/30s
 running (0m10.0s), 5/5 VUs, 30 complete and 0 interrupted iterations
 default   [  33% ] 5 VUs  10.0s/30s
 
-running (0m11.0s), 5/5 VUs, 35 complete and 0 interrupted iterations
+running (0m11.0s), 5/5 VUs, 30 complete and 0 interrupted iterations
 default   [  37% ] 5 VUs  11.0s/30s
 
 running (0m12.0s), 5/5 VUs, 35 complete and 0 interrupted iterations
@@ -65,7 +65,7 @@ default   [  53% ] 5 VUs  16.0s/30s
 running (0m17.0s), 5/5 VUs, 55 complete and 0 interrupted iterations
 default   [  57% ] 5 VUs  17.0s/30s
 
-running (0m18.0s), 5/5 VUs, 60 complete and 0 interrupted iterations
+running (0m18.0s), 5/5 VUs, 55 complete and 0 interrupted iterations
 default   [  60% ] 5 VUs  18.0s/30s
 
 running (0m19.0s), 5/5 VUs, 60 complete and 0 interrupted iterations
@@ -107,32 +107,32 @@ default   [ 100% ] 5 VUs  30.0s/30s
 
   █ TOTAL RESULTS 
 
-    checks_total.......: 105     3.44071/s
+    checks_total.......: 105     3.406894/s
     checks_succeeded...: 100.00% 105 out of 105
     checks_failed......: 0.00%   0 out of 105
 
     ✓ status 200 байна
 
     HTTP
-    http_req_duration..............: avg=196.91ms min=62.89ms med=223.13ms max=316.72ms p(90)=308.16ms p(95)=310.63ms
-      { expected_response:true }...: avg=196.91ms min=62.89ms med=223.13ms max=316.72ms p(90)=308.16ms p(95)=310.63ms
+    http_req_duration..............: avg=204.92ms min=64.32ms med=226.38ms max=413.04ms p(90)=313.12ms p(95)=317.55ms
+      { expected_response:true }...: avg=204.92ms min=64.32ms med=226.38ms max=413.04ms p(90)=313.12ms p(95)=317.55ms
     http_req_failed................: 0.00%  0 out of 210
-    http_reqs......................: 210    6.88142/s
+    http_reqs......................: 210    6.813789/s
 
     EXECUTION
-    iteration_duration.............: avg=1.45s    min=1.28s   med=1.41s    max=2.57s    p(90)=1.45s    p(95)=1.53s   
-    iterations.....................: 105    3.44071/s
+    iteration_duration.............: avg=1.46s    min=1.32s   med=1.42s    max=2.55s    p(90)=1.52s    p(95)=1.53s   
+    iterations.....................: 105    3.406894/s
     vus............................: 5      min=5        max=5
     vus_max........................: 5      min=5        max=5
 
     NETWORK
-    data_received..................: 427 kB 14 kB/s
-    data_sent......................: 27 kB  879 B/s
+    data_received..................: 428 kB 14 kB/s
+    data_sent......................: 27 kB  871 B/s
 
 
 
 
-running (0m30.5s), 0/5 VUs, 105 complete and 0 interrupted iterations
+running (0m30.8s), 0/5 VUs, 105 complete and 0 interrupted iterations
 default ✓ [ 100% ] 5 VUs  30s
 
 k6 exit code: 0
